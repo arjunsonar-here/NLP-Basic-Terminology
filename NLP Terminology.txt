@@ -1,0 +1,42 @@
+Language is a method of communication with the help of which we can speak, read and write. Natural Language Processing (NLP) is a subfield of Computer Science that deals with Artificial Intelligence (AI), which enables computers to understand and process human language. 
+
+STEPS:
+
+1. Tokenization
+	
+Tokenization breaks the raw text into words, sentences called tokens. These tokens help in understanding the context or developing the model for the NLP. The tokenization helps in interpreting the meaning of the text by analyzing the sequence of the words.
+
+
+2. Stopwords removal (The words which are not necessary or very common in general)
+
+Stopword Removal are commonly used method in indexing. Stop words are high frequency words that have little semantic weight and are thus unlikely to help the retrieval process. Usual practice in IR is to drop them from index.
+
+
+3. Stemming (Root words, eat , eating , eatery			)
+
+Stemming is the process of reducing a word to its word stem that affixes to suffixes and prefixes or to the roots of words known as a lemma. Stemming is important in natural language understanding (NLU) and natural language processing (NLP).
+
+		
+4. lemmatization
+
+Lemmatization is the grouping together of different forms of the same word. In search queries, lemmatization allows end users to query any version of a base word and get relevant results.
+
+Ex. For example, runs, running, ran are all forms of the word run, therefore run is the lemma of all these words.
+
+5. POS Tags
+
+It is a process of converting a sentence to forms – list of words, list of tuples (where each tuple is having a form (word, tag)). The tag in case of is a part-of-speech tag, and signifies whether the word is a noun, adjective, verb, and so on.
+
+
+6. Name Entity Recognization
+
+Named entity recognition (NER) is a sub-task of information extraction (IE) that seeks out and categorizes specified entities in a body or bodies of texts. NER is also known simply as entity identification, entity chunking and entity extraction.
+
+
+7. Chunking
+
+Chunking is extracting phrases from an unstructured text by evaluating a sentence and determining its elements (Noun Groups, Verbs, verb groups, etc.) However, it does not describe their internal structure or their function in the introductory statement.
+
+Ex. "I had my breakfast, lunch and dinner."
+
+In this case, if we wish to group or chunk noun phrases, we will get "breakfast", "lunch", and "dinner", which are the nouns or noun groups of the sentence. 
